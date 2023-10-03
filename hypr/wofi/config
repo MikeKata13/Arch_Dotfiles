@@ -1,0 +1,30 @@
+show=drun
+width=750
+height=400
+always_parse_args=true
+show_all=false
+print_command=true
+insensitive=true
+prompt= Hmm, what do you want to run?
+
+## Images
+allow_markup=true
+allow_images=true
+
+## Search
+exec_search=false
+hide_search=false
+parse_search=false
+insensitive=false
+
+
+## Other
+hide_scroll=false
+no_actions=true
+sort_order=default
+gtk_dark=true
+filter_rate=100
+
+## Keys
+key_expand=Tab
+key_exit=Escape
