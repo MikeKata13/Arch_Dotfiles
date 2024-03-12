@@ -1,0 +1,8 @@
+[window]
+decorations = "full"
+decorations_theme_variant = "Dark"
+opacity = 0.8
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
