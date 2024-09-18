@@ -1,13 +1,13 @@
 * {
   border: none;
-  border-radius: 0;
+  border-radius: 0px;
   font-family:
     Cartograph CF Nerd Font,
     monospace;
   /*font-family: Source Code Pro, monospace;*/
   font-weight: bold;
   font-size: 14px;
-  min-height: 0;
+  min-height: 0px;
 }
 
 window#waybar {
@@ -23,32 +23,36 @@ tooltip {
   border-color: #11111b;
 }
 
-workspaces button {
-  padding: 5px;
-  color: rgba(136, 190, 252, 0);
-  margin-right: 5px;
+#workspaces button {
+  padding: 7px;
+  color: #88befc;
+  margin-right: 10px;
 }
 
-workspaces button.focused {
+#workspaces button.active {
+  background: #88befc;
+  padding: 7px;
+  color: #1e1e2e;
+  border-radius: 10px;
+  border-color: #1e1e2e;
+}
+
+#workspaces button.focused {
   color: #88befc;
-  background: #eba0ac;
+  background: rgba(13, 36, 59, 0.87);
+  background: #1e1e2e;
   border-radius: 10px;
 }
 
-workspaces button.focused {
-  color: #88befc;
-  background: #eba0ac;
+#workspaces button.urgent {
+  color: #1e1e2e;
+  background: #1a9f3e;
+  /*background: #a6e3a1;*/
   border-radius: 10px;
 }
 
-workspaces button.urgent {
-  color: #88befc;
-  background: #a6e3a1;
-  border-radius: 10px;
-}
-
-workspaces button:hover {
-  background: #11111b;
+#workspaces button:hover {
+  background: rgba(13, 36, 59, 0.87);
   color: #88befc;
   border-radius: 10px;
 }
@@ -83,12 +87,12 @@ workspaces button:hover {
   margin-right: 10px;
 }
 
-workspaces {
+#workspaces {
   background: #1e1e2e;
   border-radius: 10px;
   margin-left: 10px;
   padding-right: 0px;
-  padding-left: 5px;
+  padding-left: 0px;
 }
 
 #custom-caffeine {
